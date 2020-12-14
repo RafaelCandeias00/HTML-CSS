@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FBF8FB;
+    font-family: 'Trebuchet MS';
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+}
+
+/* Barra de navegação */
+#navbar{
+    background-color: #F2BA06;
+    padding: 20px;
+    text-align: center;
+}
+#navbar-logo, #navbar-menu{
+    padding: 7px;
+}
+
+/* Logo */
+#navbar-logo{
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 700;
+}
+.navbar-logo-nome{
+    font-size: 1em;  
+    color: #ffffff; 
+}
+.preto{
+    color: #4B4F2F;
+}
+
+/* Menu */
+.navbar-menu-pages{
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px 15px;
+}
+.navbar-menu-pages:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #F2BA06;
+}
+#navbar-menu .active{
+    background-color: #ffffff;
+    color: #F2BA06;
+    border-radius: 5px;
+}
+
+/* INDEX */
+/* Main */
+#area-principal{
+    width: 920px;
+    margin: 10px auto;
+}
+
+/* Geral de cada div */
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+#area-postagem{
+    /*border: 1px solid;*/
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+/* Psotagens */
+.area-postagens-titulo{
+    font-size: 30px;
+    color: #FCBE38;
+}
+.area-postagens-subtitulo{
+    font-size: 0.8em;
+    color: #000000;
+    font-weight: 700;
+}
+.area-postagens-imagem{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.area-postagens-texto{
+    text-align: justify;
+}
+.area-postagens-leia-mais{
+    color: #F2BA06;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.area-postagens-leia-mais:hover{
+    text-decoration: underline;
+}
+
+/* Lateral Postagens*/
+#conteudo-lateral{
+    width: 260px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.area-lateral-titulo{
+    background-color: #DDDADD;
+    padding: 5px;
+    color: #51505D;
+}
+.area-lateral-leia-mais{
+    color: #F2BA06;
+}
+.area-lateral-leia-mais:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin: 10px 0px;
+}
+/* Lateral Categoorias*/
+.categorias-links{
+    color: #FCBE38;
+    font-weight: 600;
+    display: block;
+    padding: 5px;
+}
+.categorias-links:hover{
+    text-decoration: underline;
+}
+
+#rodape{
+    background-color: #ccc;
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+}

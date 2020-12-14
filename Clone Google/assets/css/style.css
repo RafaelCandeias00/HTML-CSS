@@ -1,0 +1,126 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto';
+}
+#container{
+    border: 1px solid #dadce0;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 450px;
+    padding: 40px;
+}
+
+#logo-demais{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#logo-demais img{
+    width: 70px;
+    margin: 10px 0;
+}
+#logo-demais .logo-demais-fazer_login{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+#logo-demais .logo-demais-frase{
+    font-weight: 400;
+    font-size: 1em;
+}
+
+#login{
+    margin-bottom: 50px;
+}
+#login input{
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 1px solid #dadce0;
+    margin-bottom: 10px;
+}
+#login a{
+    text-decoration: none;
+    color: #4473e8;
+    font-size: 0.9em;
+}
+#login p{
+    font-size: 0.9em;
+    color: #5a5a5d;
+    margin-top: 50px;
+}
+
+#login-criar-proximo{
+    padding-bottom: 50px;
+}
+#login-criar-proximo button{
+    float: right;
+}
+#login-criar-proximo .criar-conta{
+    float: left;
+    background-color: transparent;
+    border: transparent;
+}
+#login-criar-proximo .criar-conta a{
+    color: #4473e8;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+}
+#login-criar-proximo .proxima{
+    background-color: #1a73e8;
+    border: 1px solid #1a73e8;
+    border-radius: 3px;
+}
+#login-criar-proximo .proxima:hover{
+    background-color: #1B66C9;
+    border: 1px solid #1b66c9;
+}
+#login-criar-proximo .proxima a{
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+#externo{
+    position: relative;
+    top: 60px;
+}
+#externo .idioma{
+    cursor: pointer;
+}
+#externo .idioma a{
+    float: left;
+    font-size: 0.8em;
+}
+#externo .idioma span{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000000;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+#externo .auxilio ul li{
+    list-style: none;
+    display: inline;
+    float: right;
+    font-size: 0.9em;
+}
+#externo .auxilio ul li a{
+    text-decoration: none;
+    color: #757586;
+    padding: 0 5px;
+}

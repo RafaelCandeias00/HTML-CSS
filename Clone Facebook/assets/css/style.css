@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F2F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Geral */
+#container{
+    width: 1000px;
+    margin: 10% auto;
+}
+#logo{
+    float: left;
+    width: 500px;
+    margin: 7% auto;
+}
+#login{
+    float: right;
+    width: 400px;
+
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #DBDDDF;
+}
+
+/* Logo */
+.logo-facebook{
+    width: 250px;
+    display: block;
+}
+.logo-frase{
+    width: 600px;
+    text-align: left;
+    line-height: 1em;
+    margin-top: 15px;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+/* Login */
+input{
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    margin: auto;
+}
+input:hover{
+    border: 1px solid #1877F2;
+}
+
+.login-email_senha{
+    margin-bottom: 10px;
+}
+
+.login-entrar{
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1877F2;
+}
+.login-entrar:hover{
+    background-color: #166FE5;
+}
+
+.login-esqueceu_senha{
+    text-align: center;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: #1877F2;
+}
+
+hr{
+    border: 1px solid #DADDE1;
+    margin-top: 0px 0px;
+}
+
+.login-criar-outra-conta{
+    width: 50%;
+    margin-top: 20px;
+
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #42B72A;
+}
+.login-criar-outra-conta:hover{
+    background-color: #36A420;
+}
+
+
+.login-pagina_nova{
+    position: relative;
+    top: 4em;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
+span:hover{
+    text-decoration: underline;
+}

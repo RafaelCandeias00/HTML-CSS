@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f1faee;
+}
+main {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  color: #1d3557;
+  font-family: 'Pathway Gothic One';
+  letter-spacing: 5px;
+  font-weight: 550;
+}
+h4 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #598aa6;
+  font-weight: 400;
+}
+img {
+  width: 90%;
+  box-shadow: 5px 5px 20px #808080;
+}
+.frase-abaixo-imagem {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+ul {
+  margin: auto;
+  max-width: 900px;
+}
+li {
+  list-style-position: inside;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+b{
+    margin-right: 5px;
+}
+.frase {
+  text-align: justify;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #1d3557;
+  padding: 30px;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 60px;
+  color: white;
+  margin-bottom: 0px;
+}
+.link, a{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #000000;
+}

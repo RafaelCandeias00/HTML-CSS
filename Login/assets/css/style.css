@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEE;
+}
+#container{
+    margin: 25px auto;
+    width: 300px;
+}
+h1{
+    text-align: center;
+    margin: 10px auto;
+}
+#formulario{
+    background-color: grey;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    padding: 10px;
+}
+input{
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+.enviar{
+    background-color: #cccccc;
+    font-weight: bold;
+}
+.enviar:hover{
+    background-color: #d3d3d3;
+}
